@@ -1,0 +1,452 @@
+id_pagamento,id_projeto,etapa,valor_pago,dt_pagamento,status_pagamento,dt_inicio,flag_data_invalida
+1,1,Cobertura,13942510.28,2020-03-31,Pago,2020-03-28,Data Válida
+2,1,Acabamento,10362960.69,2020-07-16,Pendente,2020-03-28,Data Válida
+3,1,FundaÃ§Ã£o,12276964.65,2020-09-27,Estornado,2020-03-28,Data Válida
+4,2,Acabamento,1620884.27,2019-05-01,Pendente,2019-04-17,Data Válida
+5,4,Entrega,4395656.14,2022-12-28,Pendente,2022-12-13,Data Válida
+6,4,Estrutura,3702669.64,2023-04-01,Pago,2022-12-13,Data Válida
+7,4,FundaÃ§Ã£o,3207632.55,2023-07-07,Pago,2022-12-13,Data Válida
+8,4,InÃ­cio de Obra,3960486.62,2023-09-25,Pago,2022-12-13,Data Válida
+9,4,Cobertura,4163477.31,2023-12-13,Pago,2022-12-13,Data Válida
+10,7,FundaÃ§Ã£o,3026228.77,2019-05-28,Pago,2019-05-27,Data Válida
+11,7,Acabamento,2763522.95,2019-09-17,Pago,2019-05-27,Data Válida
+12,7,Estrutura,2947322.51,2019-12-08,Pago,2019-05-27,Data Válida
+13,7,Entrega,2713024.61,2020-03-04,Estornado,2019-05-27,Data Válida
+14,8,FundaÃ§Ã£o,1948714.23,2022-10-06,Pendente,2022-10-05,Data Válida
+15,8,Acabamento,1966130.36,2023-01-07,Pago,2022-10-05,Data Válida
+16,8,Cobertura,1371484.79,2023-04-12,Pendente,2022-10-05,Data Válida
+17,8,InÃ­cio de Obra,1712117.39,2023-07-26,Pendente,2022-10-05,Data Válida
+18,9,Entrega,9821217.48,2020-02-27,Estornado,2020-02-16,Data Válida
+19,9,Cobertura,12957762.88,2020-05-26,Pago,2020-02-16,Data Válida
+20,9,Estrutura,11112226.03,2020-08-22,Pago,2020-02-16,Data Válida
+21,9,Acabamento,10692861.89,2020-11-12,Estornado,2020-02-16,Data Válida
+22,9,FundaÃ§Ã£o,12269214.16,2021-02-11,Pago,2020-02-16,Data Válida
+23,9,InÃ­cio de Obra,11330340.35,2021-05-24,Pago,2020-02-16,Data Válida
+24,10,Cobertura,12581686.88,2021-03-08,Pago,2021-02-12,Data Válida
+25,10,FundaÃ§Ã£o,12049321.89,2021-06-08,Estornado,2021-02-12,Data Válida
+26,11,Acabamento,12667738.95,2018-05-23,Pago,2018-04-28,Data Válida
+27,11,Cobertura,8814484.13,2018-07-28,Pago,2018-04-28,Data Válida
+28,11,Estrutura,12656971.32,2018-11-02,Pendente,2018-04-28,Data Válida
+29,11,FundaÃ§Ã£o,12381428.54,2019-02-07,Pago,2018-04-28,Data Válida
+30,11,InÃ­cio de Obra,10117297.71,2019-04-29,Pago,2018-04-28,Data Válida
+31,11,Entrega,9843015.14,2019-07-31,Pago,2018-04-28,Data Válida
+32,13,FundaÃ§Ã£o,7534079.03,2020-05-17,Estornado,2020-05-08,Data Válida
+33,15,InÃ­cio de Obra,14192246.92,2018-06-02,Pago,2018-05-31,Data Válida
+34,15,Entrega,14906770.96,2018-09-17,Estornado,2018-05-31,Data Válida
+35,15,Cobertura,14833450.96,2018-12-13,Pago,2018-05-31,Data Válida
+36,15,FundaÃ§Ã£o,10525741.52,2019-02-28,Estornado,2018-05-31,Data Válida
+37,16,Cobertura,3821887.34,2021-02-13,Pago,2021-01-17,Data Válida
+38,16,InÃ­cio de Obra,5491266.43,2021-05-04,Estornado,2021-01-17,Data Válida
+39,16,FundaÃ§Ã£o,5098896.58,2021-08-13,Pago,2021-01-17,Data Válida
+40,16,Estrutura,3933650.12,2021-10-26,Pago,2021-01-17,Data Válida
+41,17,Estrutura,2835943.18,2021-03-04,Pago,2021-02-07,Data Válida
+42,17,Cobertura,2969343.86,2021-05-26,Pago,2021-02-07,Data Válida
+43,20,Cobertura,8838556.85,2018-06-05,Pago,2018-06-04,Data Válida
+44,20,FundaÃ§Ã£o,9269829.24,2018-09-14,Pendente,2018-06-04,Data Válida
+45,20,InÃ­cio de Obra,7699283.91,2018-12-06,Estornado,2018-06-04,Data Válida
+46,20,Entrega,9942723.98,2019-03-16,Pendente,2018-06-04,Data Válida
+47,21,Acabamento,4903557.75,2023-01-18,Pago,2023-01-16,Data Válida
+48,21,Estrutura,4958780.24,2023-04-18,Pago,2023-01-16,Data Válida
+49,21,Entrega,4319775.12,2023-08-09,Pago,2023-01-16,Data Válida
+50,21,Cobertura,3907855.63,2023-10-15,Estornado,2023-01-16,Data Válida
+51,23,Cobertura,813898.73,2022-06-04,Pago,2022-05-22,Data Válida
+52,23,Estrutura,738487.33,2022-08-30,Estornado,2022-05-22,Data Válida
+53,23,Acabamento,1041577.75,2022-12-15,Pago,2022-05-22,Data Válida
+54,23,InÃ­cio de Obra,883990.74,2023-03-03,Pago,2022-05-22,Data Válida
+55,23,Entrega,809391.87,2023-05-29,Pago,2022-05-22,Data Válida
+56,25,Estrutura,12847928.9,2018-02-23,Pendente,2018-02-18,Data Válida
+57,25,InÃ­cio de Obra,14073225.55,2018-06-17,Estornado,2018-02-18,Data Válida
+58,25,FundaÃ§Ã£o,15002945.84,2018-08-18,Estornado,2018-02-18,Data Válida
+59,25,Entrega,14497152.38,2018-11-16,Pendente,2018-02-18,Data Válida
+60,25,Cobertura,14464745.33,2019-02-16,Pago,2018-02-18,Data Válida
+61,25,Acabamento,15241116.11,2019-06-12,Pago,2018-02-18,Data Válida
+62,26,Entrega,4192448.7,2021-11-05,Pago,2021-10-23,Data Válida
+63,26,Cobertura,3960352.38,2022-02-01,Pago,2021-10-23,Data Válida
+64,26,Estrutura,4140392.85,2022-04-27,Pendente,2021-10-23,Data Válida
+65,27,Acabamento,2442771.84,2019-12-15,Pago,2019-12-09,Data Válida
+66,27,InÃ­cio de Obra,2861193.29,2020-03-13,Pago,2019-12-09,Data Válida
+67,27,Cobertura,2442743.64,2020-06-16,Pendente,2019-12-09,Data Válida
+68,27,Estrutura,2407112.56,2020-09-24,Pendente,2019-12-09,Data Válida
+69,28,InÃ­cio de Obra,1949820.61,2023-04-05,Pago,2023-03-11,Data Válida
+70,28,Estrutura,1519070.75,2023-06-25,Pago,2023-03-11,Data Válida
+71,28,Entrega,1697388.31,2023-09-17,Pago,2023-03-11,Data Válida
+72,28,Acabamento,1543099.26,2023-12-20,Pago,2023-03-11,Data Válida
+73,28,Cobertura,1580559.96,2024-03-17,Pago,2023-03-11,Data Válida
+74,28,FundaÃ§Ã£o,1519110.0,2024-06-14,Pago,2023-03-11,Data Válida
+75,29,Cobertura,8781070.97,2022-01-31,Pendente,2022-01-14,Data Válida
+76,31,Acabamento,904081.39,2022-06-15,Pago,2022-05-29,Data Válida
+77,31,Entrega,924647.78,2022-08-29,Estornado,2022-05-29,Data Válida
+78,31,FundaÃ§Ã£o,760954.25,2022-12-20,Pago,2022-05-29,Data Válida
+79,32,Acabamento,6359857.98,2022-07-16,Pendente,2022-06-19,Data Válida
+80,32,Entrega,8706942.46,2022-09-24,Pago,2022-06-19,Data Válida
+81,32,Cobertura,8036417.14,2023-01-09,Estornado,2022-06-19,Data Válida
+82,32,InÃ­cio de Obra,6330007.08,2023-04-04,Pendente,2022-06-19,Data Válida
+83,35,Entrega,13329257.53,2019-06-07,Pago,2019-05-15,Data Válida
+84,36,Cobertura,13678864.05,2018-05-10,Pendente,2018-04-13,Data Válida
+85,38,FundaÃ§Ã£o,7218415.05,2022-09-23,Pago,2022-09-17,Data Válida
+86,40,Cobertura,6330831.23,2018-05-22,Pago,2018-05-12,Data Válida
+87,40,FundaÃ§Ã£o,8331394.18,2018-09-03,Pago,2018-05-12,Data Válida
+88,40,Entrega,6749484.37,2018-12-04,Estornado,2018-05-12,Data Válida
+89,40,InÃ­cio de Obra,6809557.21,2019-02-27,Pendente,2018-05-12,Data Válida
+90,40,Estrutura,8041894.94,2019-05-13,Pago,2018-05-12,Data Válida
+91,41,Acabamento,1477607.19,2023-01-30,Pendente,2023-01-28,Data Válida
+92,41,InÃ­cio de Obra,1142162.2,2023-05-04,Pago,2023-01-28,Data Válida
+93,41,Estrutura,1194279.39,2023-08-05,Pago,2023-01-28,Data Válida
+94,41,Entrega,1428923.11,2023-11-20,Pendente,2023-01-28,Data Válida
+95,42,Estrutura,6850442.8,2020-06-03,Pendente,2020-05-08,Data Válida
+96,42,InÃ­cio de Obra,9526538.25,2020-08-12,Pago,2020-05-08,Data Válida
+97,42,Acabamento,8647769.68,2020-12-01,Pago,2020-05-08,Data Válida
+98,42,Entrega,9432055.41,2021-02-27,Pago,2020-05-08,Data Válida
+99,42,FundaÃ§Ã£o,9248894.91,2021-06-01,Pago,2020-05-08,Data Válida
+100,43,InÃ­cio de Obra,1086829.95,2022-07-17,Pago,2022-06-23,Data Válida
+101,43,Estrutura,1275061.28,2022-10-13,Pago,2022-06-23,Data Válida
+102,43,Acabamento,1002584.16,2023-01-15,Pendente,2022-06-23,Data Válida
+103,43,Entrega,1394625.66,2023-04-13,Pago,2022-06-23,Data Válida
+104,43,FundaÃ§Ã£o,1265669.1,2023-06-25,Pago,2022-06-23,Data Válida
+105,44,FundaÃ§Ã£o,2128070.65,2021-10-05,Pago,2021-09-19,Data Válida
+106,44,Estrutura,1979748.48,2021-12-19,Pendente,2021-09-19,Data Válida
+107,44,InÃ­cio de Obra,1554913.02,2022-03-24,Estornado,2021-09-19,Data Válida
+108,46,Cobertura,11171002.34,2020-09-08,Pendente,2020-08-21,Data Válida
+109,48,FundaÃ§Ã£o,2868850.99,2021-03-27,Pago,2021-03-01,Data Válida
+110,48,Estrutura,2575000.41,2021-06-14,Pago,2021-03-01,Data Válida
+111,48,Entrega,2435731.74,2021-08-31,Estornado,2021-03-01,Data Válida
+112,48,Acabamento,2513693.21,2021-12-16,Pendente,2021-03-01,Data Válida
+113,48,InÃ­cio de Obra,3096946.68,2022-03-25,Pago,2021-03-01,Data Válida
+114,48,Cobertura,2326707.36,2022-06-13,Pago,2021-03-01,Data Válida
+115,49,Estrutura,12664513.85,2022-05-13,Pendente,2022-05-12,Data Válida
+116,49,FundaÃ§Ã£o,10053993.69,2022-09-06,Pendente,2022-05-12,Data Válida
+117,49,InÃ­cio de Obra,14282852.66,2022-12-02,Pago,2022-05-12,Data Válida
+118,49,Acabamento,15022833.43,2023-02-27,Estornado,2022-05-12,Data Válida
+119,49,Entrega,10399829.22,2023-05-11,Estornado,2022-05-12,Data Válida
+120,49,Cobertura,11463474.86,2023-08-31,Pago,2022-05-12,Data Válida
+121,51,Cobertura,3054877.89,2018-04-21,Pago,2018-03-26,Data Válida
+122,51,Entrega,3594059.21,2018-06-26,Pago,2018-03-26,Data Válida
+123,51,InÃ­cio de Obra,2677656.15,2018-10-19,Pago,2018-03-26,Data Válida
+124,51,Estrutura,3501981.5,2019-01-10,Pago,2018-03-26,Data Válida
+125,51,FundaÃ§Ã£o,2847160.01,2019-04-15,Pago,2018-03-26,Data Válida
+126,54,FundaÃ§Ã£o,3009581.46,2023-04-24,Pendente,2023-03-30,Data Válida
+127,54,Estrutura,4191315.99,2023-07-17,Pago,2023-03-30,Data Válida
+128,54,InÃ­cio de Obra,3314906.32,2023-10-09,Estornado,2023-03-30,Data Válida
+129,54,Acabamento,3626186.08,2024-01-08,Pago,2023-03-30,Data Válida
+130,55,FundaÃ§Ã£o,7151995.95,2022-10-28,Pendente,2022-10-09,Data Válida
+131,55,Acabamento,10096626.28,2023-01-10,Estornado,2022-10-09,Data Válida
+132,56,Entrega,5851052.65,2019-07-26,Pendente,2019-07-20,Data Válida
+133,56,InÃ­cio de Obra,6181833.12,2019-10-21,Pago,2019-07-20,Data Válida
+134,57,Acabamento,6492049.43,2020-09-24,Pendente,2020-09-02,Data Válida
+135,57,Entrega,7430026.43,2020-12-10,Pago,2020-09-02,Data Válida
+136,57,Cobertura,9079807.82,2021-03-19,Pago,2020-09-02,Data Válida
+137,57,InÃ­cio de Obra,8838882.78,2021-06-17,Estornado,2020-09-02,Data Válida
+138,57,FundaÃ§Ã£o,9055229.96,2021-09-10,Pago,2020-09-02,Data Válida
+139,57,Estrutura,6793866.37,2021-12-13,Pago,2020-09-02,Data Válida
+140,58,InÃ­cio de Obra,7085643.97,2020-02-22,Pago,2020-01-26,Data Válida
+141,59,Acabamento,6941881.36,2019-06-08,Pendente,2019-05-30,Data Válida
+142,59,FundaÃ§Ã£o,6545812.21,2019-08-30,Pago,2019-05-30,Data Válida
+143,59,Estrutura,6316348.94,2019-11-28,Pago,2019-05-30,Data Válida
+144,61,Entrega,8740227.6,2022-09-29,Estornado,2022-09-02,Data Válida
+145,61,FundaÃ§Ã£o,10022806.33,2022-12-13,Pendente,2022-09-02,Data Válida
+146,61,InÃ­cio de Obra,7513328.28,2023-03-29,Pago,2022-09-02,Data Válida
+147,61,Acabamento,7003926.36,2023-06-01,Pago,2022-09-02,Data Válida
+148,62,InÃ­cio de Obra,1630376.47,2018-04-20,Pago,2018-04-04,Data Válida
+149,62,FundaÃ§Ã£o,1565750.01,2018-07-16,Pendente,2018-04-04,Data Válida
+150,62,Entrega,1468868.47,2018-10-17,Pago,2018-04-04,Data Válida
+151,62,Acabamento,1506343.64,2019-01-09,Pago,2018-04-04,Data Válida
+152,65,InÃ­cio de Obra,9793474.2,2022-07-21,Pago,2022-07-20,Data Válida
+153,65,FundaÃ§Ã£o,11603806.21,2022-11-08,Pendente,2022-07-20,Data Válida
+154,65,Cobertura,9881553.49,2023-01-27,Pago,2022-07-20,Data Válida
+155,65,Estrutura,8900785.74,2023-05-12,Estornado,2022-07-20,Data Válida
+156,65,Entrega,10282233.49,2023-07-16,Pago,2022-07-20,Data Válida
+157,66,Entrega,9443466.78,2020-12-31,Pago,2020-12-06,Data Válida
+158,66,Acabamento,8937683.24,2021-03-16,Pago,2020-12-06,Data Válida
+159,66,FundaÃ§Ã£o,12633325.19,2021-06-18,Pendente,2020-12-06,Data Válida
+160,66,InÃ­cio de Obra,10634398.07,2021-10-02,Pago,2020-12-06,Data Válida
+161,67,Entrega,9161118.44,2022-03-25,Pago,2022-02-24,Data Válida
+162,70,Estrutura,13490234.31,2022-08-01,Pago,2022-07-05,Data Válida
+163,70,Acabamento,14110937.13,2022-10-04,Pago,2022-07-05,Data Válida
+164,70,Cobertura,12146300.08,2023-01-23,Pago,2022-07-05,Data Válida
+165,70,FundaÃ§Ã£o,15309905.44,2023-04-09,Pendente,2022-07-05,Data Válida
+166,70,Entrega,16434130.45,2023-07-18,Pago,2022-07-05,Data Válida
+167,72,Entrega,11396669.87,2020-08-17,Pago,2020-08-17,Data Válida
+168,72,InÃ­cio de Obra,11510799.57,2020-11-20,Pago,2020-08-17,Data Válida
+169,72,Acabamento,10708986.25,2021-03-14,Pago,2020-08-17,Data Válida
+170,73,InÃ­cio de Obra,3606634.56,2020-06-26,Pago,2020-06-03,Data Válida
+171,73,Entrega,4118441.34,2020-09-21,Estornado,2020-06-03,Data Válida
+172,74,InÃ­cio de Obra,15398067.05,2022-04-19,Pago,2022-04-16,Data Válida
+173,74,Entrega,13096363.29,2022-08-01,Pago,2022-04-16,Data Válida
+174,74,FundaÃ§Ã£o,10960124.77,2022-11-07,Pago,2022-04-16,Data Válida
+175,74,Estrutura,12959496.84,2023-01-18,Pago,2022-04-16,Data Válida
+176,74,Acabamento,12329772.96,2023-04-28,Pago,2022-04-16,Data Válida
+177,76,FundaÃ§Ã£o,4982772.32,2018-12-14,Pago,2018-11-26,Data Válida
+178,76,Cobertura,3571397.89,2019-03-18,Estornado,2018-11-26,Data Válida
+179,77,Acabamento,12186330.65,2019-10-08,Pendente,2019-10-07,Data Válida
+180,77,Entrega,9592481.26,2020-01-10,Pago,2019-10-07,Data Válida
+181,77,FundaÃ§Ã£o,10402205.54,2020-04-11,Pago,2019-10-07,Data Válida
+182,77,Estrutura,12173713.87,2020-07-24,Pago,2019-10-07,Data Válida
+183,77,InÃ­cio de Obra,13164889.27,2020-10-13,Pago,2019-10-07,Data Válida
+184,77,Cobertura,10701303.14,2021-01-26,Pago,2019-10-07,Data Válida
+185,78,Acabamento,998941.84,2020-05-02,Pendente,2020-04-26,Data Válida
+186,78,Estrutura,1152517.03,2020-08-07,Pendente,2020-04-26,Data Válida
+187,78,Cobertura,1068140.54,2020-10-26,Pendente,2020-04-26,Data Válida
+188,78,InÃ­cio de Obra,1208526.81,2021-02-07,Pago,2020-04-26,Data Válida
+189,78,Entrega,1114878.44,2021-05-15,Pago,2020-04-26,Data Válida
+190,78,FundaÃ§Ã£o,1165476.92,2021-08-14,Pago,2020-04-26,Data Válida
+191,81,Estrutura,3799264.48,2023-02-16,Pago,2023-02-13,Data Válida
+192,81,FundaÃ§Ã£o,3652537.75,2023-05-22,Pago,2023-02-13,Data Válida
+193,81,InÃ­cio de Obra,4073720.72,2023-09-08,Pago,2023-02-13,Data Válida
+194,82,Estrutura,10403627.41,2020-09-21,Estornado,2020-09-15,Data Válida
+195,82,InÃ­cio de Obra,7682946.52,2021-01-03,Pago,2020-09-15,Data Válida
+196,82,FundaÃ§Ã£o,7258076.07,2021-03-23,Pendente,2020-09-15,Data Válida
+197,82,Cobertura,7846234.97,2021-06-28,Pendente,2020-09-15,Data Válida
+198,82,Acabamento,8824377.97,2021-09-15,Pago,2020-09-15,Data Válida
+199,83,InÃ­cio de Obra,4679146.03,2022-12-07,Estornado,2022-12-06,Data Válida
+200,83,Cobertura,5162616.33,2023-03-06,Pago,2022-12-06,Data Válida
+201,83,FundaÃ§Ã£o,4782886.82,2023-06-24,Estornado,2022-12-06,Data Válida
+202,83,Estrutura,5265003.37,2023-09-25,Estornado,2022-12-06,Data Válida
+203,83,Acabamento,4254647.43,2023-12-26,Pago,2022-12-06,Data Válida
+204,84,Acabamento,5421404.43,2022-09-18,Pendente,2022-09-12,Data Válida
+205,84,FundaÃ§Ã£o,7192974.84,2023-01-08,Estornado,2022-09-12,Data Válida
+206,84,InÃ­cio de Obra,6865286.04,2023-03-19,Pago,2022-09-12,Data Válida
+207,84,Cobertura,6587902.91,2023-06-09,Pago,2022-09-12,Data Válida
+208,85,Entrega,5976287.85,2020-08-09,Pago,2020-07-21,Data Válida
+209,85,InÃ­cio de Obra,5690080.66,2020-11-05,Pago,2020-07-21,Data Válida
+210,85,Cobertura,4934702.55,2021-01-27,Pago,2020-07-21,Data Válida
+211,85,Acabamento,6039361.24,2021-04-19,Pago,2020-07-21,Data Válida
+212,86,Cobertura,16430410.23,2022-03-06,Pago,2022-03-06,Data Válida
+213,86,InÃ­cio de Obra,13734120.82,2022-06-08,Estornado,2022-03-06,Data Válida
+214,86,Acabamento,16747840.64,2022-09-13,Pendente,2022-03-06,Data Válida
+215,86,Entrega,12064380.69,2022-12-31,Pendente,2022-03-06,Data Válida
+216,86,Estrutura,12923635.66,2023-03-13,Pago,2022-03-06,Data Válida
+217,87,Acabamento,8902656.82,2023-06-10,Pago,2023-06-01,Data Válida
+218,87,Entrega,8613694.24,2023-09-05,Pago,2023-06-01,Data Válida
+219,87,FundaÃ§Ã£o,10705858.04,2023-12-27,Estornado,2023-06-01,Data Válida
+220,87,Cobertura,10533020.96,2024-02-28,Pago,2023-06-01,Data Válida
+221,87,InÃ­cio de Obra,11953107.24,2024-06-02,Pago,2023-06-01,Data Válida
+222,87,Estrutura,11496270.96,2024-09-20,Pendente,2023-06-01,Data Válida
+223,88,InÃ­cio de Obra,1411379.78,2021-10-02,Pago,2021-09-02,Data Válida
+224,88,Entrega,1311424.02,2021-12-10,Pago,2021-09-02,Data Válida
+225,90,FundaÃ§Ã£o,8979393.33,2018-06-17,Pendente,2018-05-21,Data Válida
+226,90,InÃ­cio de Obra,10245831.0,2018-08-30,Pago,2018-05-21,Data Válida
+227,91,Entrega,2772122.66,2018-08-08,Pago,2018-07-25,Data Válida
+228,91,InÃ­cio de Obra,2373662.93,2018-10-30,Pago,2018-07-25,Data Válida
+229,91,Cobertura,2679008.62,2019-01-25,Pago,2018-07-25,Data Válida
+230,91,FundaÃ§Ã£o,2295794.61,2019-05-11,Pago,2018-07-25,Data Válida
+231,92,Cobertura,1165191.55,2018-11-22,Pago,2018-10-26,Data Válida
+232,95,Estrutura,8216225.75,2021-12-06,Pendente,2021-11-14,Data Válida
+233,95,Acabamento,5911753.64,2022-02-17,Pendente,2021-11-14,Data Válida
+234,95,Cobertura,6549507.53,2022-06-06,Pendente,2021-11-14,Data Válida
+235,95,Entrega,7935331.62,2022-08-18,Estornado,2021-11-14,Data Válida
+236,95,InÃ­cio de Obra,6839365.64,2022-11-13,Estornado,2021-11-14,Data Válida
+237,95,FundaÃ§Ã£o,6509134.98,2023-03-09,Pago,2021-11-14,Data Válida
+238,96,InÃ­cio de Obra,4522560.05,2020-01-11,Estornado,2020-01-06,Data Válida
+239,96,Acabamento,5266551.5,2020-04-13,Pago,2020-01-06,Data Válida
+240,96,FundaÃ§Ã£o,3943287.16,2020-07-04,Pago,2020-01-06,Data Válida
+241,96,Cobertura,4490135.02,2020-10-11,Pago,2020-01-06,Data Válida
+242,96,Estrutura,3826631.82,2021-01-30,Pago,2020-01-06,Data Válida
+243,96,Entrega,3876054.83,2021-04-13,Pago,2020-01-06,Data Válida
+244,97,InÃ­cio de Obra,1206564.8,2022-03-10,Pago,2022-03-06,Data Válida
+245,97,Acabamento,991683.3,2022-06-09,Pago,2022-03-06,Data Válida
+246,97,FundaÃ§Ã£o,1198924.91,2022-09-06,Pago,2022-03-06,Data Válida
+247,97,Cobertura,1303253.61,2022-12-22,Pago,2022-03-06,Data Válida
+248,97,Estrutura,1161038.69,2023-03-19,Estornado,2022-03-06,Data Válida
+249,97,Entrega,1204036.87,2023-06-07,Pago,2022-03-06,Data Válida
+250,98,Entrega,3413535.0,2019-06-14,Estornado,2019-05-29,Data Válida
+251,98,Cobertura,3534566.66,2019-09-26,Pago,2019-05-29,Data Válida
+252,98,Acabamento,4679153.65,2019-11-30,Pago,2019-05-29,Data Válida
+253,98,InÃ­cio de Obra,4128697.24,2020-03-16,Pago,2019-05-29,Data Válida
+254,100,Estrutura,2434058.47,2023-06-22,Pago,2023-06-13,Data Válida
+255,100,Cobertura,1929584.66,2023-09-14,Estornado,2023-06-13,Data Válida
+256,101,Entrega,4814517.72,2018-08-30,Estornado,2018-08-24,Data Válida
+257,101,Estrutura,6896254.66,2018-12-06,Pago,2018-08-24,Data Válida
+258,101,InÃ­cio de Obra,5499912.48,2019-02-27,Pendente,2018-08-24,Data Válida
+259,101,FundaÃ§Ã£o,5823350.33,2019-06-16,Estornado,2018-08-24,Data Válida
+260,103,FundaÃ§Ã£o,2310481.24,2021-10-25,Pendente,2021-10-08,Data Válida
+261,103,InÃ­cio de Obra,2255048.56,2022-01-30,Pendente,2021-10-08,Data Válida
+262,103,Entrega,2091366.53,2022-04-07,Pago,2021-10-08,Data Válida
+263,103,Estrutura,2495908.65,2022-07-14,Estornado,2021-10-08,Data Válida
+264,103,Cobertura,2606076.06,2022-10-24,Pendente,2021-10-08,Data Válida
+265,103,Acabamento,2789875.87,2023-01-14,Pago,2021-10-08,Data Válida
+266,104,Entrega,3519065.36,2021-03-13,Estornado,2021-02-23,Data Válida
+267,104,FundaÃ§Ã£o,4066074.18,2021-05-25,Pago,2021-02-23,Data Válida
+268,104,Acabamento,3537432.72,2021-09-19,Pago,2021-02-23,Data Válida
+269,104,InÃ­cio de Obra,3517874.09,2021-11-20,Pago,2021-02-23,Data Válida
+270,104,Estrutura,4265562.42,2022-02-27,Pago,2021-02-23,Data Válida
+271,106,FundaÃ§Ã£o,11240815.89,2020-02-03,Pago,2020-01-30,Data Válida
+272,106,Acabamento,11320492.89,2020-05-05,Pago,2020-01-30,Data Válida
+273,106,Cobertura,11996286.57,2020-07-29,Pendente,2020-01-30,Data Válida
+274,106,InÃ­cio de Obra,11038050.92,2020-11-20,Pago,2020-01-30,Data Válida
+275,106,Entrega,10244585.16,2021-02-16,Pago,2020-01-30,Data Válida
+276,107,FundaÃ§Ã£o,7258893.71,2019-08-11,Pendente,2019-07-27,Data Válida
+277,107,Acabamento,9275645.02,2019-11-07,Pago,2019-07-27,Data Válida
+278,107,InÃ­cio de Obra,9593881.43,2020-02-01,Estornado,2019-07-27,Data Válida
+279,107,Entrega,6889290.1,2020-05-21,Pendente,2019-07-27,Data Válida
+280,107,Estrutura,7531508.89,2020-08-09,Estornado,2019-07-27,Data Válida
+281,107,Cobertura,9242778.53,2020-11-10,Pago,2019-07-27,Data Válida
+282,108,Cobertura,10177427.02,2020-02-17,Pendente,2020-01-23,Data Válida
+283,108,Estrutura,8838645.24,2020-04-24,Pago,2020-01-23,Data Válida
+284,110,Cobertura,11520117.0,2022-05-09,Pago,2022-04-17,Data Válida
+285,110,InÃ­cio de Obra,12502466.14,2022-08-04,Estornado,2022-04-17,Data Válida
+286,111,Estrutura,4500582.13,2018-11-12,Pago,2018-10-24,Data Válida
+287,111,Acabamento,4717273.1,2019-01-22,Estornado,2018-10-24,Data Válida
+288,112,Cobertura,978006.7,2022-06-14,Estornado,2022-06-03,Data Válida
+289,114,InÃ­cio de Obra,6217016.93,2023-04-22,Pendente,2023-04-21,Data Válida
+290,114,Cobertura,5639380.53,2023-07-31,Pago,2023-04-21,Data Válida
+291,116,Cobertura,5341627.59,2021-07-26,Pago,2021-07-02,Data Válida
+292,116,Entrega,6225920.83,2021-10-19,Pago,2021-07-02,Data Válida
+293,116,Estrutura,5690782.39,2022-01-17,Pago,2021-07-02,Data Válida
+294,116,InÃ­cio de Obra,6166789.69,2022-04-16,Pago,2021-07-02,Data Válida
+295,117,InÃ­cio de Obra,4209434.9,2022-10-25,Pago,2022-10-13,Data Válida
+296,117,Entrega,3787356.49,2023-01-17,Pago,2022-10-13,Data Válida
+297,117,Acabamento,4743192.14,2023-04-16,Pago,2022-10-13,Data Válida
+298,117,Cobertura,4874275.75,2023-08-04,Pago,2022-10-13,Data Válida
+299,118,InÃ­cio de Obra,5849334.67,2019-10-13,Estornado,2019-10-03,Data Válida
+300,121,Entrega,9348295.96,2023-07-06,Pago,2023-06-07,Data Válida
+301,121,Acabamento,8486370.7,2023-09-15,Pago,2023-06-07,Data Válida
+302,121,FundaÃ§Ã£o,7729407.16,2023-12-16,Estornado,2023-06-07,Data Válida
+303,121,InÃ­cio de Obra,8384337.71,2024-03-26,Estornado,2023-06-07,Data Válida
+304,121,Estrutura,6898888.4,2024-06-04,Pago,2023-06-07,Data Válida
+305,122,Entrega,2610994.8,2022-10-09,Pago,2022-10-02,Data Válida
+306,122,Acabamento,2862786.58,2023-01-20,Pendente,2022-10-02,Data Válida
+307,122,Estrutura,2454737.87,2023-04-09,Estornado,2022-10-02,Data Válida
+308,122,InÃ­cio de Obra,2685737.45,2023-07-03,Pago,2022-10-02,Data Válida
+309,122,Cobertura,2211361.22,2023-09-28,Estornado,2022-10-02,Data Válida
+310,123,Entrega,10246429.58,2022-05-09,Pendente,2022-04-21,Data Válida
+311,123,FundaÃ§Ã£o,9584873.86,2022-08-06,Pago,2022-04-21,Data Válida
+312,123,Cobertura,9076932.52,2022-11-17,Pendente,2022-04-21,Data Válida
+313,123,InÃ­cio de Obra,9305695.1,2023-02-11,Pago,2022-04-21,Data Válida
+314,123,Acabamento,11875483.55,2023-04-19,Pago,2022-04-21,Data Válida
+315,123,Estrutura,10665658.25,2023-07-28,Pendente,2022-04-21,Data Válida
+316,126,Estrutura,4479974.22,2023-04-20,Pendente,2023-04-13,Data Válida
+317,126,Cobertura,5237531.71,2023-07-26,Pago,2023-04-13,Data Válida
+318,126,InÃ­cio de Obra,5429290.28,2023-10-15,Pago,2023-04-13,Data Válida
+319,128,InÃ­cio de Obra,11702406.99,2018-08-23,Pendente,2018-08-16,Data Válida
+320,128,FundaÃ§Ã£o,11254495.91,2018-11-21,Pago,2018-08-16,Data Válida
+321,129,Acabamento,5799965.32,2023-05-13,Pago,2023-04-21,Data Válida
+322,129,InÃ­cio de Obra,5515675.32,2023-08-15,Estornado,2023-04-21,Data Válida
+323,129,FundaÃ§Ã£o,5259381.24,2023-11-05,Pendente,2023-04-21,Data Válida
+324,131,Entrega,13742284.61,2022-11-15,Estornado,2022-10-31,Data Válida
+325,131,Estrutura,13696574.65,2023-01-31,Pendente,2022-10-31,Data Válida
+326,131,Acabamento,14497118.81,2023-05-27,Pago,2022-10-31,Data Válida
+327,131,Cobertura,13767667.78,2023-08-26,Pago,2022-10-31,Data Válida
+328,132,Cobertura,5184216.99,2021-12-26,Pendente,2021-12-24,Data Válida
+329,133,InÃ­cio de Obra,4152665.31,2022-09-04,Estornado,2022-08-31,Data Válida
+330,133,FundaÃ§Ã£o,4798832.08,2022-12-17,Pago,2022-08-31,Data Válida
+331,133,Entrega,4097796.58,2023-03-05,Pago,2022-08-31,Data Válida
+332,133,Acabamento,4650752.96,2023-06-27,Pendente,2022-08-31,Data Válida
+333,133,Estrutura,3479360.18,2023-09-02,Pendente,2022-08-31,Data Válida
+334,133,Cobertura,3557777.91,2023-12-06,Pago,2022-08-31,Data Válida
+335,134,InÃ­cio de Obra,6915907.44,2022-11-19,Estornado,2022-11-18,Data Válida
+336,134,Estrutura,6968263.45,2023-02-23,Estornado,2022-11-18,Data Válida
+337,134,FundaÃ§Ã£o,6640451.01,2023-05-31,Pago,2022-11-18,Data Válida
+338,134,Acabamento,7812590.71,2023-08-27,Pago,2022-11-18,Data Válida
+339,135,Acabamento,4978226.84,2023-02-17,Pago,2023-01-30,Data Válida
+340,135,Entrega,6676244.68,2023-05-29,Pago,2023-01-30,Data Válida
+341,135,Estrutura,5808976.21,2023-08-09,Pago,2023-01-30,Data Válida
+342,135,Cobertura,6341566.44,2023-11-25,Pago,2023-01-30,Data Válida
+343,135,InÃ­cio de Obra,4738354.52,2024-02-23,Pago,2023-01-30,Data Válida
+344,135,FundaÃ§Ã£o,5573969.63,2024-04-24,Pendente,2023-01-30,Data Válida
+345,136,Entrega,2360352.84,2022-04-12,Pago,2022-04-04,Data Válida
+346,136,Estrutura,2039058.03,2022-07-17,Pago,2022-04-04,Data Válida
+347,136,FundaÃ§Ã£o,2883230.62,2022-10-29,Pago,2022-04-04,Data Válida
+348,137,FundaÃ§Ã£o,8641955.24,2021-03-12,Pendente,2021-03-02,Data Válida
+349,137,Entrega,8714504.15,2021-06-24,Pago,2021-03-02,Data Válida
+350,137,InÃ­cio de Obra,8094996.04,2021-09-08,Pago,2021-03-02,Data Válida
+351,137,Estrutura,9083411.85,2021-12-03,Pendente,2021-03-02,Data Válida
+352,137,Acabamento,6526483.55,2022-03-22,Pago,2021-03-02,Data Válida
+353,137,Cobertura,8016409.84,2022-06-14,Pago,2021-03-02,Data Válida
+354,138,Acabamento,8102978.37,2021-05-21,Pago,2021-04-26,Data Válida
+355,140,FundaÃ§Ã£o,10965794.8,2023-03-01,Pago,2023-02-05,Data Válida
+356,140,Cobertura,13526781.0,2023-05-27,Estornado,2023-02-05,Data Válida
+357,140,Estrutura,16063772.02,2023-08-07,Pago,2023-02-05,Data Válida
+358,140,Acabamento,13665866.49,2023-11-20,Pendente,2023-02-05,Data Válida
+359,140,InÃ­cio de Obra,16135356.5,2024-02-12,Estornado,2023-02-05,Data Válida
+360,140,Entrega,11571704.87,2024-05-14,Pago,2023-02-05,Data Válida
+361,142,Estrutura,7100488.77,2020-01-19,Pendente,2020-01-16,Data Válida
+362,142,Acabamento,6215861.52,2020-05-15,Pago,2020-01-16,Data Válida
+363,142,InÃ­cio de Obra,6362432.55,2020-08-06,Estornado,2020-01-16,Data Válida
+364,143,Acabamento,2319726.73,2018-05-31,Pago,2018-05-15,Data Válida
+365,143,Estrutura,2049299.23,2018-08-31,Pendente,2018-05-15,Data Válida
+366,144,FundaÃ§Ã£o,14285056.26,2018-11-27,Pago,2018-11-04,Data Válida
+367,144,Estrutura,13953968.93,2019-02-10,Pago,2018-11-04,Data Válida
+368,144,InÃ­cio de Obra,14639380.51,2019-05-20,Pago,2018-11-04,Data Válida
+369,144,Acabamento,13952051.24,2019-08-31,Pendente,2018-11-04,Data Válida
+370,146,Estrutura,2469486.89,2022-03-08,Pago,2022-02-22,Data Válida
+371,146,Entrega,2768942.26,2022-06-18,Pago,2022-02-22,Data Válida
+372,148,Estrutura,1701589.02,2018-08-05,Pendente,2018-07-27,Data Válida
+373,148,InÃ­cio de Obra,1899023.46,2018-11-03,Pago,2018-07-27,Data Válida
+374,148,Cobertura,1618449.58,2019-02-19,Pago,2018-07-27,Data Válida
+375,148,Acabamento,1625498.05,2019-05-06,Pendente,2018-07-27,Data Válida
+376,148,Entrega,1826472.45,2019-08-16,Pago,2018-07-27,Data Válida
+377,148,FundaÃ§Ã£o,1706148.26,2019-11-09,Pago,2018-07-27,Data Válida
+378,149,InÃ­cio de Obra,4134531.43,2021-12-05,Estornado,2021-11-19,Data Válida
+379,149,Acabamento,3986869.42,2022-02-26,Pago,2021-11-19,Data Válida
+380,149,FundaÃ§Ã£o,3893961.23,2022-05-22,Estornado,2021-11-19,Data Válida
+381,149,Cobertura,3894605.52,2022-09-09,Pago,2021-11-19,Data Válida
+382,149,Entrega,3768615.54,2022-12-08,Pago,2021-11-19,Data Válida
+383,149,Estrutura,4269410.98,2023-02-26,Pendente,2021-11-19,Data Válida
+384,151,Cobertura,3323346.15,2020-06-24,Estornado,2020-06-21,Data Válida
+385,152,FundaÃ§Ã£o,3997349.34,2018-10-14,Estornado,2018-10-11,Data Válida
+386,152,Cobertura,3785925.8,2019-02-08,Pago,2018-10-11,Data Válida
+387,152,InÃ­cio de Obra,3396313.16,2019-04-28,Pendente,2018-10-11,Data Válida
+388,152,Entrega,3870990.17,2019-07-30,Pendente,2018-10-11,Data Válida
+389,152,Estrutura,3680537.52,2019-10-08,Estornado,2018-10-11,Data Válida
+390,154,Acabamento,3931185.03,2022-08-09,Estornado,2022-07-31,Data Válida
+391,154,InÃ­cio de Obra,4843257.81,2022-11-28,Pendente,2022-07-31,Data Válida
+392,154,Estrutura,4637552.15,2023-02-02,Estornado,2022-07-31,Data Válida
+393,154,FundaÃ§Ã£o,4499700.29,2023-05-27,Pendente,2022-07-31,Data Válida
+394,154,Cobertura,3802832.47,2023-07-30,Pago,2022-07-31,Data Válida
+395,155,Acabamento,6572356.71,2018-07-01,Estornado,2018-06-17,Data Válida
+396,155,Estrutura,7341851.57,2018-10-05,Pago,2018-06-17,Data Válida
+397,155,Entrega,6925775.77,2018-12-14,Pago,2018-06-17,Data Válida
+398,155,FundaÃ§Ã£o,5989429.03,2019-04-06,Pago,2018-06-17,Data Válida
+399,158,Estrutura,1351735.58,2022-07-13,Estornado,2022-06-14,Data Válida
+400,158,Acabamento,1609966.78,2022-09-21,Estornado,2022-06-14,Data Válida
+401,158,Cobertura,1241239.62,2022-12-27,Pago,2022-06-14,Data Válida
+402,159,Acabamento,1348119.05,2022-01-14,Pago,2022-01-11,Data Válida
+403,159,FundaÃ§Ã£o,1471404.42,2022-04-11,Pago,2022-01-11,Data Válida
+404,159,Estrutura,1537287.05,2022-07-26,Pago,2022-01-11,Data Válida
+405,159,InÃ­cio de Obra,1261444.28,2022-11-02,Estornado,2022-01-11,Data Válida
+406,159,Entrega,1423979.78,2023-02-05,Pago,2022-01-11,Data Válida
+407,159,Cobertura,1204369.13,2023-04-06,Pendente,2022-01-11,Data Válida
+408,160,Acabamento,6294015.17,2018-06-28,Pago,2018-06-25,Data Válida
+409,160,Cobertura,7867008.87,2018-10-11,Pago,2018-06-25,Data Válida
+410,160,Entrega,8627952.92,2019-01-07,Pago,2018-06-25,Data Válida
+411,160,Estrutura,7241222.59,2019-03-31,Pago,2018-06-25,Data Válida
+412,160,InÃ­cio de Obra,7958476.96,2019-07-10,Pendente,2018-06-25,Data Válida
+413,160,FundaÃ§Ã£o,7151415.1,2019-09-26,Estornado,2018-06-25,Data Válida
+414,161,Cobertura,16298908.0,2020-03-25,Estornado,2020-03-10,Data Válida
+415,161,FundaÃ§Ã£o,16049773.34,2020-06-25,Pendente,2020-03-10,Data Válida
+416,163,Entrega,7222926.03,2022-08-29,Estornado,2022-08-28,Data Válida
+417,163,Estrutura,7601163.26,2022-11-28,Estornado,2022-08-28,Data Válida
+418,163,InÃ­cio de Obra,5890059.21,2023-02-27,Pago,2022-08-28,Data Válida
+419,163,FundaÃ§Ã£o,7882045.13,2023-06-16,Pago,2022-08-28,Data Válida
+420,163,Cobertura,5767021.44,2023-08-29,Estornado,2022-08-28,Data Válida
+421,165,Entrega,10238989.17,2019-06-11,Pago,2019-06-03,Data Válida
+422,165,Estrutura,9049123.85,2019-09-08,Pago,2019-06-03,Data Válida
+423,165,Cobertura,7212208.46,2019-12-08,Pago,2019-06-03,Data Válida
+424,165,FundaÃ§Ã£o,8639116.95,2020-03-05,Pago,2019-06-03,Data Válida
+425,166,Estrutura,8843529.76,2020-02-01,Pago,2020-01-24,Data Válida
+426,166,InÃ­cio de Obra,9390058.83,2020-04-25,Pago,2020-01-24,Data Válida
+427,167,InÃ­cio de Obra,8959038.68,2022-06-26,Pago,2022-06-21,Data Válida
+428,167,Estrutura,8570310.83,2022-10-10,Pago,2022-06-21,Data Válida
+429,169,Cobertura,7492413.97,2022-02-06,Pago,2022-01-09,Data Válida
+430,169,Entrega,8994083.71,2022-05-03,Pago,2022-01-09,Data Válida
+431,169,Estrutura,7054997.3,2022-07-28,Pago,2022-01-09,Data Válida
+432,169,FundaÃ§Ã£o,6275849.97,2022-10-22,Pago,2022-01-09,Data Válida
+433,169,Acabamento,6849436.85,2023-02-01,Pago,2022-01-09,Data Válida
+434,169,InÃ­cio de Obra,8563179.25,2023-04-26,Pago,2022-01-09,Data Válida
+435,172,Estrutura,4305616.6,2022-06-09,Pendente,2022-05-14,Data Válida
+436,172,Acabamento,3843772.58,2022-08-27,Pago,2022-05-14,Data Válida
+437,173,Cobertura,3789093.73,2020-02-11,Pago,2020-02-01,Data Válida
+438,175,Entrega,7255423.31,2021-06-07,Pago,2021-06-07,Data Válida
+439,175,Cobertura,7511702.76,2021-09-17,Pago,2021-06-07,Data Válida
+440,176,InÃ­cio de Obra,2001667.19,2020-07-01,Estornado,2020-06-30,Data Válida
+441,176,Cobertura,1663751.38,2020-10-17,Pago,2020-06-30,Data Válida
+442,176,Acabamento,1479091.06,2021-01-03,Pendente,2020-06-30,Data Válida
+443,177,Cobertura,7502120.84,2018-12-04,Estornado,2018-11-19,Data Válida
+444,177,Entrega,7405471.16,2019-02-17,Pendente,2018-11-19,Data Válida
+445,177,Acabamento,6011059.82,2019-06-06,Pago,2018-11-19,Data Válida
+446,177,FundaÃ§Ã£o,6223404.57,2019-09-01,Estornado,2018-11-19,Data Válida
+447,177,Estrutura,7323911.49,2019-12-06,Pago,2018-11-19,Data Válida
+448,177,InÃ­cio de Obra,7604987.9,2020-03-13,Pago,2018-11-19,Data Válida
+449,178,FundaÃ§Ã£o,11764180.63,2021-03-31,Pago,2021-03-18,Data Válida
+450,178,Acabamento,9697208.25,2021-07-02,Pago,2021-03-18,Data Válida
+451,180,Entrega,4618445.61,2021-10-29,Pago,2021-10-24,Data Válida

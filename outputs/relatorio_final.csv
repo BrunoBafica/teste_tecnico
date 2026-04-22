@@ -1,0 +1,25 @@
+uf,total_projetos_concluidos,total_projetos_execucao,dias_execucao,taxa_conclusao,secao,unidades_entregues,deficit_habitacional,percentual_cobertura
+AL,0.0,0.0,,,Indicador A,,,
+BA,0.0,0.0,,,Indicador A,,,
+CE,0.0,0.0,,,Indicador A,,,
+MA,0.0,0.0,,,Indicador A,,,
+MG,0.0,0.0,,,Indicador A,,,
+PA,0.0,0.0,,,Indicador A,,,
+PB,0.0,0.0,,,Indicador A,,,
+PE,0.0,0.0,,,Indicador A,,,
+PI,0.0,0.0,,,Indicador A,,,
+RN,0.0,0.0,,,Indicador A,,,
+SE,0.0,0.0,,,Indicador A,,,
+TO,0.0,0.0,,,Indicador A,,,
+AL,,,,,Indicador C,458.0,31453.0,1.4561409086573618
+BA,,,,,Indicador C,232.0,51982.0,0.4463083375014428
+CE,,,,,Indicador C,1540.0,170207.0,0.9047806494444999
+MA,,,,,Indicador C,0.0,58539.0,0.0
+MG,,,,,Indicador C,496.0,91552.0,0.541768612373296
+PA,,,,,Indicador C,1252.0,79918.0,1.566605770915188
+PB,,,,,Indicador C,819.0,124428.0,0.6582119780113801
+PE,,,,,Indicador C,672.0,183596.0,0.3660210462101571
+PI,,,,,Indicador C,934.0,105349.0,0.8865769964593875
+RN,,,,,Indicador C,321.0,140846.0,0.2279084958039277
+SE,,,,,Indicador C,991.0,84702.0,1.1699841798304644
+TO,,,,,Indicador C,398.0,213897.0,0.186070865884047

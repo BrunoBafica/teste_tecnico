@@ -1,0 +1,21 @@
+id_projeto,nome_projeto,nome_municipio,uf,programa,modalidade,situacao,valor_total,valor_repassado,percentual_repasse,dt_conclusao_prevista,atrasado,risco
+25,Projeto_0025,MunicÃ­pio_029,PA,Casa Verde e Amarela,Faixa 2,Contratado,88020250.15,20033011.73,22.759548735501976,2020-03-19,True,Alto
+28,Projeto_0028,MunicÃ­pio_015,MA,UrbanizaÃ§Ã£o de Assentamentos,Faixa 3,Contratado,11112256.26,18793.92,0.16912784910883613,2025-04-17,True,Alto
+29,Projeto_0029,MunicÃ­pio_047,PI,UrbanizaÃ§Ã£o de Assentamentos,Faixa 1,Contratado,44497400.32,37734475.37,84.80152795137494,2024-09-20,True,Alto
+56,Projeto_0056,MunicÃ­pio_063,TO,Casa Verde e Amarela,Faixa 2,Contratado,37193797.88,26079686.69,70.11837504237144,2020-08-08,True,Alto
+59,Projeto_0059,MunicÃ­pio_045,PI,UrbanizaÃ§Ã£o de Assentamentos,Faixa 3,Contratado,39247932.22,10632909.56,27.091642689348287,2021-09-13,True,Alto
+62,Projeto_0062,MunicÃ­pio_038,PE,Casa Verde e Amarela,Faixa 2,Contratado,8418761.64,1065671.77,12.658296024639556,2019-07-24,True,Alto
+67,Projeto_0067,MunicÃ­pio_057,SE,RegularizaÃ§Ã£o FundiÃ¡ria,Faixa 3,Contratado,55258406.06,33687232.5,60.963091232530566,2023-09-15,True,Alto
+70,Projeto_0070,MunicÃ­pio_059,SE,Minha Casa Minha Vida,Faixa 3,Contratado,84513185.15,49844996.75,58.97895891810438,2024-08-13,True,Alto
+82,Projeto_0082,MunicÃ­pio_016,MA,Casa Verde e Amarela,Faixa 2,Contratado,53627288.46,22281620.47,41.549034288055815,2024-05-09,True,Alto
+84,Projeto_0084,MunicÃ­pio_036,PE,UrbanizaÃ§Ã£o de Assentamentos,Faixa 2,Contratado,36965202.7,26838621.74,72.60509825366113,2026-06-10,False,Médio
+85,Projeto_0085,MunicÃ­pio_020,MG,UrbanizaÃ§Ã£o de Assentamentos,Faixa 3,Contratado,33026372.06,17947523.45,54.34300630233982,2023-05-11,True,Alto
+95,Projeto_0095,MunicÃ­pio_037,PE,Casa Verde e Amarela,Faixa 1,Contratado,41439742.26,39866236.82,96.20290727165349,2024-04-09,True,Alto
+97,Projeto_0097,MunicÃ­pio_038,PE,Minha Casa Minha Vida,Faixa 3,Contratado,7006122.74,4804795.42,68.57994925735485,2023-06-14,True,Médio
+116,Projeto_0116,MunicÃ­pio_063,TO,UrbanizaÃ§Ã£o de Assentamentos,Faixa 1,Contratado,35369124.19,4463285.96,12.619158834761071,2024-04-27,True,Alto
+133,Projeto_0133,MunicÃ­pio_038,PE,Minha Casa Minha Vida,Faixa 2,Contratado,24407507.9,15086897.25,61.81252634153609,2025-09-10,True,Alto
+136,Projeto_0136,MunicÃ­pio_019,MG,Casa Verde e Amarela,Faixa 1,Contratado,14704870.7,2247930.48,15.28697889196673,2023-09-05,True,Alto
+158,Projeto_0158,MunicÃ­pio_055,RN,Minha Casa Minha Vida,Faixa 2,Contratado,8841862.1,3712039.56,41.982554330948005,2026-01-05,True,Alto
+163,Projeto_0163,MunicÃ­pio_014,CE,RegularizaÃ§Ã£o FundiÃ¡ria,Faixa 1,Contratado,40639520.55,26122905.65,64.27956161013321,2026-04-05,True,Alto
+169,Projeto_0169,MunicÃ­pio_038,PE,RegularizaÃ§Ã£o FundiÃ¡ria,Faixa 1,Contratado,45885266.12,20460963.46,44.591576316654916,2025-05-30,True,Alto
+175,Projeto_0175,MunicÃ­pio_064,TO,UrbanizaÃ§Ã£o de Assentamentos,Faixa 3,Contratado,50768087.63,22656432.48,44.62731124544428,2024-01-12,True,Alto
