@@ -10,7 +10,7 @@ RELATORIO_FINAL_PATH = os.path.join(OUTPUTS_DIR, "relatorio_final.csv")
 
 
 def classificar_risco(row):
-    percentual_repasse = 0
+    percentual_repasse = 0.0
     if pd.notna(row["valor_total"]) and row["valor_total"] != 0:
         percentual_repasse = row["valor_repassado"] / row["valor_total"]
 
@@ -22,7 +22,7 @@ def classificar_risco(row):
 
     if (atrasado and percentual_repasse < 0.5) or (atrasado and valor_alto):
         return "Alto"
-    elif atrasado or percentual_repasse < 0.5 or valor_alto:
+    if atrasado or percentual_repasse < 0.5 or valor_alto:
         return "Médio"
     return "Baixo"
 
@@ -38,7 +38,7 @@ def main():
     df = projetos.merge(municipios, on="id_municipio", how="left")
 
     # =========================
-    # Indicador A
+    # Indicador A — Eficiência de entrega por UF
     # =========================
     concluidos = df[df["situacao"] == "Concluído"].copy()
     concluidos["dias_execucao"] = (
@@ -51,10 +51,13 @@ def main():
     ).reset_index()
 
     media_dias = concluidos.groupby("uf", as_index=False)["dias_execucao"].mean()
+    media_dias = media_dias.rename(columns={"dias_execucao": "media_dias_execucao"})
+
     indicador_a = indicador_a.merge(media_dias, on="uf", how="left")
 
     denominador = (
-        indicador_a["total_projetos_concluidos"] + indicador_a["total_projetos_execucao"]
+        indicador_a["total_projetos_concluidos"] +
+        indicador_a["total_projetos_execucao"]
     ).replace(0, pd.NA)
 
     indicador_a["taxa_conclusao"] = (
@@ -62,7 +65,7 @@ def main():
     ) * 100
 
     # =========================
-    # Indicador B
+    # Indicador B — Concentração de investimento
     # =========================
     investimento_municipio = df.groupby(
         ["nome_municipio", "uf"], as_index=False
@@ -83,48 +86,61 @@ def main():
         proporcao_modalidade["percentual"] = 0
 
     resumo_indicador_b = pd.DataFrame({
-        "descricao": ["Percentual do investimento concentrado nos 10 municípios com maior investimento"],
+        "descricao": ["Percentual do valor total concentrado nos 10 municípios com maior investimento"],
         "valor": [percentual_top10]
     })
 
     # =========================
-    # Indicador C
+    # Indicador C — Déficit habitacional vs unidades entregues
     # =========================
-    indicador_c = df.groupby("uf", as_index=False).agg(
-        unidades_entregues=("unidades_entregues", "sum"),
-        deficit_habitacional=("deficit_habitacional", "sum")
-    )
+    deficit_por_uf = municipios.groupby("uf", as_index=False)["deficit_habitacional"].sum()
+    entregas_por_uf = projetos.merge(
+        municipios[["id_municipio", "uf"]],
+        on="id_municipio",
+        how="left"
+    ).groupby("uf", as_index=False)["unidades_entregues"].sum()
+
+    indicador_c = deficit_por_uf.merge(entregas_por_uf, on="uf", how="left")
+    indicador_c["unidades_entregues"] = indicador_c["unidades_entregues"].fillna(0)
 
     indicador_c["percentual_cobertura"] = (
         indicador_c["unidades_entregues"] /
         indicador_c["deficit_habitacional"].replace(0, pd.NA)
     ) * 100
 
+    indicador_c = indicador_c[
+        ["uf", "unidades_entregues", "deficit_habitacional", "percentual_cobertura"]
+    ]
+
     # =========================
-    # Indicador D
+    # Indicador D — Perfil de risco dos projetos
     # =========================
     ativos = df[df["situacao"].isin(["Em execução", "Contratado"])].copy()
+
     ativos["percentual_repasse"] = (
         ativos["valor_repassado"] / ativos["valor_total"].replace(0, pd.NA)
     ) * 100
+
     ativos["atrasado"] = ativos["dt_conclusao_prevista"] < pd.Timestamp.today().normalize()
     ativos["risco"] = ativos.apply(classificar_risco, axis=1)
 
-    projetos_risco = ativos[[
-        "id_projeto",
-        "nome_projeto",
-        "nome_municipio",
-        "uf",
-        "programa",
-        "modalidade",
-        "situacao",
-        "valor_total",
-        "valor_repassado",
-        "percentual_repasse",
-        "dt_conclusao_prevista",
-        "atrasado",
-        "risco"
-    ]].copy()
+    projetos_risco = ativos[
+        [
+            "id_projeto",
+            "nome_projeto",
+            "nome_municipio",
+            "uf",
+            "programa",
+            "modalidade",
+            "situacao",
+            "valor_total",
+            "valor_repassado",
+            "percentual_repasse",
+            "dt_conclusao_prevista",
+            "atrasado",
+            "risco"
+        ]
+    ].copy()
 
     # =========================
     # EXPORTAÇÕES
@@ -136,15 +152,18 @@ def main():
     indicador_c.to_csv(os.path.join(OUTPUTS_DIR, "indicador_c_deficit_vs_entregas.csv"), index=False)
     projetos_risco.to_csv(os.path.join(OUTPUTS_DIR, "indicador_d_risco_projetos.csv"), index=False)
 
-    # Relatório final consolidado simples
     relatorio_final = pd.concat(
         [
             indicador_a.assign(secao="Indicador A"),
-            indicador_c.assign(secao="Indicador C")
+            top10.assign(secao="Indicador B - Top 10 Municípios"),
+            proporcao_modalidade.assign(secao="Indicador B - Modalidade"),
+            indicador_c.assign(secao="Indicador C"),
+            projetos_risco.assign(secao="Indicador D")
         ],
         ignore_index=True,
         sort=False
     )
+
     relatorio_final.to_csv(RELATORIO_FINAL_PATH, index=False)
 
     print("Análises concluídas com sucesso.")
