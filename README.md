@@ -16,7 +16,7 @@ A estrutura foi organizada para separar claramente os insumos, as consultas SQL,
 ## Estrutura do projeto
 
 ```bash
-pythonDouglas/
+teste_tecnico/
 ├── dados/
 │   ├── beneficiarios.csv
 │   ├── municipios.csv
@@ -67,12 +67,6 @@ Instale as dependências com:
 
 ```bash
 pip install -r requirements.txt
-```
-
-Conteúdo sugerido para o `requirements.txt`:
-
-```txt
-pandas>=2.0.0
 ```
 
 ---

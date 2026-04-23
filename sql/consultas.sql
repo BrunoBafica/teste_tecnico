@@ -1,30 +1,30 @@
--- Visão geral dos projetos por UF
+-- Q1 — Visão geral dos projetos por UF
 SELECT
 	municipios.uf,
     COUNT(projetos.id_projeto) AS total_projetos,
-    SUM(projetos.unidades_previst) as total_unidades_previstas,
-    SUM(projetos.unidades_entregu) as total_unidades_entregues,
-    ROUND(SUM(projetos.unidades_entregu) *100.0 / SUM(projetos.unidades_previst),2) as total_porcentagem
+    SUM(projetos.unidades_previstas) as total_unidades_previstas,
+    SUM(projetos.unidades_entregues) as total_unidades_entregues,
+    ROUND(SUM(projetos.unidades_entregues) *100.0 / SUM(projetos.unidades_previst),2) as total_porcentagem
 FROM projetos
 JOIN municipios ON projetos.id_municipio = municipios.id_municipio
 GROUP BY municipios.uf
 ORDER by total_porcentagem DESC
 
--- Projetos com atraso
+-- Q2 — Projetos com atraso Projetos com atraso
 SELECT
 	projetos.nome_projeto,
     municipios.nome_municipio,
     municipios.uf,
-    projetos.dt_conclusao_pre,
-    julianday(DATE('now')) - julianday(projetos.dt_conclusao_pre) as dias_atraso,
+    projetos.dt_conclusao_prevista,
+    julianday(DATE('now')) - julianday(projetos.dt_conclusao_prevista) as dias_atraso,
     projetos.valor_total
 From projetos
 JOIN municipios on municipios.id_municipio = projetos.id_municipio
 WHERE projetos.situacao = 'Em execução' 
-and  projetos.dt_conclusao_pre < DATE('now')
+and  projetos.dt_conclusao_prevista < DATE('now')
 ORDER BY dias_atraso DESC
 
---Repasse financeiro
+-- Q3 — Repasse financeiro
 SELECT
 	projetos.nome_projeto,
     municipios.nome_municipio,
@@ -39,7 +39,7 @@ WHERE projetos.situacao NOT IN ('Cancelado','Em análise')
 AND valor_percentual < 50
 ORDER BY valor_percentual DESC
 
--- Perfil dos beneficiários por programa
+-- Q4 — Perfil dos beneficiários por programa
 SELECT
 	projetos.programa,
     COUNT (beneficiarios.id_beneficiario) as total_beneficiario,
@@ -50,7 +50,7 @@ FROM beneficiarios
 JOIN projetos on projetos.id_projeto = beneficiarios.id_projeto
 GROUP BY projetos.programa
 
---Análise de pagamentos por etapa
+-- Q5 — Análise de pagamentos por etapa
 CREATE VIEW vw_pagamentos_por_etapa AS
 SELECT
 	pagamentos.etapa,
